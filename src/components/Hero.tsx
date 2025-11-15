@@ -60,7 +60,7 @@ const Hero = () => {
 
           {/* Right side - Product showcase */}
           <div className="relative flex items-center justify-center animate-slide-in-right">
-            <div className="relative w-full max-w-lg">
+            <div className="relative w-full max-w-[160rem]">
               
               {/* Product image - clean, no effects */}
               <img 
