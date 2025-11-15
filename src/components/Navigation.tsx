@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu, ShoppingCart } from "lucide-react";
+import vynsLogo from "@/assets/vyns-logo.svg";
 
 const Navigation = () => {
   return (
@@ -7,9 +8,11 @@ const Navigation = () => {
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="text-xl font-light tracking-[0.3em] text-foreground">
-            VYNS
-          </div>
+          <img 
+            src={vynsLogo} 
+            alt="Vyns" 
+            className="h-8 w-auto object-contain"
+          />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
