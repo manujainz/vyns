@@ -11,15 +11,13 @@ const Hero = () => {
 
       <div className="relative container mx-auto px-6 lg:px-16 pt-32 pb-16">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center min-h-[calc(100vh-12rem)]">
-          
           {/* Left content */}
           <div className="space-y-10 animate-fade-in">
-            
             {/* Logo - no glow */}
             <div className="relative inline-block">
-              <img 
-                src={vynsLogo} 
-                alt="Vyns - Where Health Meets Wealth" 
+              <img
+                src={vynsLogo}
+                alt="Vyns - Where Health Meets Wealth"
                 className="relative w-48 lg:w-56 h-auto object-contain invert"
               />
             </div>
@@ -27,8 +25,8 @@ const Hero = () => {
             {/* Main headline */}
             <div className="space-y-4">
               <h1 className="text-5xl lg:text-6xl xl:text-7xl font-light leading-[1.1] tracking-tight">
-                <span className="block text-foreground font-serif">crafted for the</span>
-                <span className="block text-foreground font-serif">healthworthy</span>
+                <span className="block text-foreground font-serif">the future of</span>
+                <span className="block text-foreground font-serif">fit-finances</span>
               </h1>
             </div>
 
@@ -39,7 +37,7 @@ const Hero = () => {
 
             {/* CTA Button */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button 
+              <Button
                 size="lg"
                 className="group relative bg-foreground hover:bg-foreground/90 text-background font-normal px-8 py-6 text-sm rounded-lg transition-all hover:scale-[1.02]"
               >
@@ -61,9 +59,8 @@ const Hero = () => {
           {/* Right side - Product showcase */}
           <div className="relative flex items-center justify-center animate-slide-in-right">
             <div className="relative w-full max-w-[160rem]">
-              
               {/* Product image - clean, no effects */}
-              <img 
+              <img
                 src={vynsRing}
                 alt="VYNS smart ring - Premium health tracking device"
                 className="relative w-full h-auto object-contain animate-float"
