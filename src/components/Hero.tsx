@@ -27,7 +27,7 @@ const Hero = () => {
               <img 
                 src={vynsLogo} 
                 alt="Vyns - Where Health Meets Wealth" 
-                className="relative w-56 lg:w-72 h-auto object-contain"
+                className="relative w-64 lg:w-80 h-auto object-contain"
               />
             </div>
 
