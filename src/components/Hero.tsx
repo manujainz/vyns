@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import vynsLogo from "@/assets/vyns-logo-2.svg";
+import vynsAirLogo from "@/assets/vyns-air-logo.svg";
 import vynsRing from "@/assets/vyns-ring.png";
 import { ArrowRight } from "lucide-react";
 
@@ -13,21 +13,21 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center min-h-[calc(100vh-12rem)]">
           {/* Left content */}
           <div className="space-y-10 animate-fade-in">
-            {/* Logo - no glow */}
-            <div className="relative inline-block">
-              <img
-                src={vynsLogo}
-                alt="Vyns - Where Health Meets Wealth"
-                className="relative w-48 lg:w-56 h-auto object-contain invert"
-              />
-            </div>
-
-            {/* Main headline */}
-            <div className="space-y-4">
-              <h1 className="text-5xl lg:text-6xl xl:text-7xl font-light leading-[1.1] tracking-tight">
+            {/* Main headline - 30% bigger */}
+            <div className="space-y-6">
+              <h1 className="text-[4.225rem] lg:text-[5.07rem] xl:text-[5.915rem] font-light leading-[1.1] tracking-tight">
                 <span className="block text-foreground font-serif">the future of</span>
                 <span className="block text-foreground font-serif">fit-finances</span>
               </h1>
+            </div>
+
+            {/* Vyns Air Logo */}
+            <div className="relative inline-block">
+              <img
+                src={vynsAirLogo}
+                alt="Vyns Air"
+                className="relative w-32 lg:w-40 h-auto object-contain"
+              />
             </div>
 
             {/* Tagline */}
