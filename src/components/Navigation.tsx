@@ -28,7 +28,7 @@ const Navigation = () => {
             <img 
               src={vynsLogo} 
               alt="Vyns" 
-              className="h-12 lg:h-15 w-auto object-contain transition-transform hover:scale-105 invert brightness-0"
+              className="h-24 lg:h-30 w-auto object-contain transition-transform hover:scale-105 invert brightness-0"
             />
           </div>
 
