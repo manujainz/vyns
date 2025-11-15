@@ -26,7 +26,7 @@ const Hero = () => {
 
             {/* Tagline */}
             <p className="text-lg lg:text-xl font-light text-muted-foreground max-w-lg leading-relaxed">
-              Introducing Vyns ~air for frictionless payments and healthier decisions
+              Introducing Vyns ~air for frictionless payments<br />and healthier decisions
             </p>
 
             {/* CTA Button */}
