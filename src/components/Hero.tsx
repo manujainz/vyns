@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import vynsLogo from "@/assets/vyns-logo.png";
+import vynsLogo from "@/assets/vyns-logo.svg";
 import vynsAirHero from "@/assets/vyns-air-hero.jpg";
 import { ShoppingCart } from "lucide-react";
 
@@ -13,16 +13,13 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-12rem)]">
           {/* Left side - Logo and text */}
           <div className="space-y-8 animate-fade-in">
-            {/* Logo and brand name */}
+            {/* Bold Logo */}
             <div className="space-y-4">
               <img 
                 src={vynsLogo} 
-                alt="Vyns Logo" 
-                className="w-16 h-16 lg:w-20 lg:h-20 object-contain"
+                alt="Vyns - Where Health Meets Wealth" 
+                className="w-48 lg:w-64 h-auto object-contain"
               />
-              <h1 className="font-sans text-2xl lg:text-3xl font-light tracking-[0.3em] text-foreground">
-                VYNS
-              </h1>
             </div>
 
             {/* Product name */}
