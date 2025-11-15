@@ -2,10 +2,8 @@ import { Button } from "@/components/ui/button";
 import vynsAirLogo from "@/assets/vyns-air-logo.svg";
 import vynsRing from "@/assets/vyns-ring.png";
 import { ArrowRight } from "lucide-react";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen overflow-hidden bg-background">
+  return <section className="relative min-h-screen overflow-hidden bg-background">
       {/* Subtle grid pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--border)/0.05)_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border)/0.05)_1px,transparent_1px)] bg-[size:4rem_4rem]" />
 
@@ -23,11 +21,7 @@ const Hero = () => {
 
             {/* Vyns Air Logo */}
             <div className="relative inline-block">
-              <img
-                src={vynsAirLogo}
-                alt="Vyns Air"
-                className="relative w-32 lg:w-40 h-auto object-contain"
-              />
+              
             </div>
 
             {/* Tagline */}
@@ -37,10 +31,7 @@ const Hero = () => {
 
             {/* CTA Button */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button
-                size="lg"
-                className="group relative bg-foreground hover:bg-foreground/90 text-background font-normal px-8 py-6 text-sm rounded-lg transition-all hover:scale-[1.02]"
-              >
+              <Button size="lg" className="group relative bg-foreground hover:bg-foreground/90 text-background font-normal px-8 py-6 text-sm rounded-lg transition-all hover:scale-[1.02]">
                 <span className="relative z-10 flex items-center gap-2">
                   discover VYNS
                   <ArrowRight className="w-4 h-4" />
@@ -60,17 +51,11 @@ const Hero = () => {
           <div className="relative flex items-center justify-center animate-slide-in-right">
             <div className="relative w-full max-w-[160rem]">
               {/* Product image - clean, no effects */}
-              <img
-                src={vynsRing}
-                alt="VYNS smart ring - Premium health tracking device"
-                className="relative w-full h-auto object-contain animate-float"
-              />
+              <img src={vynsRing} alt="VYNS smart ring - Premium health tracking device" className="relative w-full h-auto object-contain animate-float" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
