@@ -42,6 +42,10 @@ All colors MUST be HSL.
     --glass-bg: 25 12% 10%;
     --glass-border: 35 30% 85%;
     --warm-glow: 35 80% 60%;
+    --purple-accent: 270 70% 65%;
+    --blue-accent: 210 80% 60%;
+    --gradient-start: 280 70% 55%;
+    --gradient-end: 200 80% 50%;
 
     --sidebar-background: 0 0% 98%;
 
@@ -89,6 +93,10 @@ All colors MUST be HSL.
     --input: 25 10% 16%;
     --ring: 35 40% 75%;
     --warm-glow: 35 80% 60%;
+    --purple-accent: 270 70% 65%;
+    --blue-accent: 210 80% 60%;
+    --gradient-start: 280 70% 55%;
+    --gradient-end: 200 80% 50%;
     --sidebar-background: 222 47% 8%;
     --sidebar-foreground: 220 14% 95%;
     --sidebar-primary: 38 92% 68%;

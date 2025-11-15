@@ -50,6 +50,11 @@ export default {
         "accent-color": "hsl(var(--accent-color))",
         "glass-bg": "hsl(var(--glass-bg))",
         "glass-border": "hsl(var(--glass-border))",
+        "warm-glow": "hsl(var(--warm-glow))",
+        "purple-accent": "hsl(var(--purple-accent))",
+        "blue-accent": "hsl(var(--blue-accent))",
+        "gradient-start": "hsl(var(--gradient-start))",
+        "gradient-end": "hsl(var(--gradient-end))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

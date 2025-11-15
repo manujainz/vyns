@@ -4,9 +4,10 @@ import vynsRing from "@/assets/vyns-ring.png";
 import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return <section className="relative min-h-screen overflow-hidden bg-background">
-      {/* Warm ambient glow */}
-      <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-background to-background" />
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-warm-glow/10 rounded-full blur-[120px]" />
+      {/* Colorful ambient glows */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[hsl(var(--purple-accent)/0.15)] via-background to-[hsl(var(--blue-accent)/0.1)]" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[hsl(var(--gradient-start)/0.2)] rounded-full blur-[120px]" />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-[hsl(var(--blue-accent)/0.15)] rounded-full blur-[100px]" />
       
       {/* Subtle grid pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--border)/0.05)_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border)/0.05)_1px,transparent_1px)] bg-[size:4rem_4rem]" />
@@ -46,7 +47,7 @@ const Hero = () => {
 
             {/* CTA Button */}
             <div className="flex flex-col sm:flex-row gap-4 order-5">
-              <Button size="lg" className="group relative bg-foreground hover:bg-foreground/90 text-background font-normal px-8 py-6 text-sm rounded-lg transition-all hover:scale-[1.02]">
+              <Button size="lg" className="group relative bg-gradient-to-r from-[hsl(var(--gradient-start))] to-[hsl(var(--gradient-end))] hover:opacity-90 text-white font-normal px-8 py-6 text-sm rounded-lg transition-all hover:scale-[1.02] shadow-lg shadow-[hsl(var(--purple-accent)/0.3)]">
                 <span className="relative z-10 flex items-center gap-2">
                   discover VYNS
                   <ArrowRight className="w-4 h-4" />
