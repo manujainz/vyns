@@ -20,7 +20,7 @@ const Navigation = () => {
         ? 'glass-card border-b shadow-lg shadow-black/5' 
         : 'bg-transparent border-b border-transparent'
     }`}>
-      <div className="container mx-auto px-6 lg:px-16">
+      <div className="container mx-auto px-6 lg:px-16 pt-4">
         <div className="flex items-center justify-between h-20 lg:h-24">
           
           {/* Logo */}
