@@ -32,7 +32,7 @@ const Hero = () => {
 
             {/* Tagline */}
             <p className="text-lg lg:text-xl font-light text-muted-foreground max-w-lg leading-relaxed">
-              VYNS is a members-only club that enables the trustworthy to make health progress
+              Introducing Vyns ~air for frictionless payments and healthier decisions
             </p>
 
             {/* CTA Button */}
