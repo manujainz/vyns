@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Menu, ShoppingCart } from "lucide-react";
-import vynsIcon from "@/assets/vyns-icon.png";
+import vynsLogo from "@/assets/vyns-logo-new.svg";
 import { useState, useEffect } from "react";
 
 const Navigation = () => {
@@ -26,7 +26,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="relative">
             <img 
-              src={vynsIcon} 
+              src={vynsLogo} 
               alt="Vyns" 
               className="h-24 lg:h-30 w-auto object-contain transition-transform hover:scale-105 invert brightness-0"
             />
