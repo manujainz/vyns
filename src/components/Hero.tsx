@@ -19,16 +19,11 @@ const Hero = () => {
             <div>
               <h1 className="text-[4.225rem] lg:text-[5.07rem] xl:text-[5.915rem] font-light leading-[1.1] tracking-tight">
                 <span className="block text-foreground font-serif">
-
-wear your wellness   </span>
-                <span className="block text-foreground font-serif whitespace-nowrap">own your 
-finances 
-
- 
-
- 
-
-      </span>
+                  wear your wellness
+                </span>
+                <span className="block text-foreground font-serif">
+                  own your finances
+                </span>
               </h1>
             </div>
 
