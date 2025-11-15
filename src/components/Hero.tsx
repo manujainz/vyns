@@ -4,6 +4,10 @@ import vynsRing from "@/assets/vyns-ring.png";
 import { ArrowRight } from "lucide-react";
 const Hero = () => {
   return <section className="relative min-h-screen overflow-hidden bg-background">
+      {/* Warm ambient glow */}
+      <div className="absolute inset-0 bg-gradient-to-br from-accent/10 via-background to-background" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-warm-glow/10 rounded-full blur-[120px]" />
+      
       {/* Subtle grid pattern */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--border)/0.05)_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border)/0.05)_1px,transparent_1px)] bg-[size:4rem_4rem]" />
 
