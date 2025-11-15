@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import vynsLogo from "@/assets/vyns-logo.svg";
+import vynsLogo from "@/assets/vyns-logo-2.svg";
 import vynsRing from "@/assets/vyns-ring.png";
 import { ArrowRight } from "lucide-react";
 
