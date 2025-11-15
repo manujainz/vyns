@@ -28,7 +28,7 @@ const Hero = () => {
 
             {/* Vyns Air Logo */}
             <div className="relative inline-block order-3">
-              <img src={vynsAirLogo} alt="Vyns Air" className="h-8 lg:h-10 w-auto" />
+              
             </div>
 
             {/* Tagline */}
