@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Menu, ShoppingCart, Sparkles } from "lucide-react";
+import { Menu, ShoppingCart } from "lucide-react";
 import vynsLogo from "@/assets/vyns-logo.svg";
 import { useState, useEffect } from "react";
 
@@ -65,17 +65,16 @@ const Navigation = () => {
             <Button 
               variant="ghost" 
               size="icon" 
-              className="relative text-foreground hover:bg-secondary/50 rounded-xl transition-all hover:scale-105"
+              className="relative text-foreground hover:bg-secondary/50 rounded-lg transition-all hover:scale-105"
             >
               <ShoppingCart className="w-5 h-5" />
-              <span className="absolute -top-1 -right-1 w-4 h-4 bg-gold rounded-full text-[10px] font-bold text-primary-foreground flex items-center justify-center">
+              <span className="absolute -top-1 -right-1 w-4 h-4 bg-foreground text-background rounded-full text-[10px] font-bold flex items-center justify-center">
                 0
               </span>
             </Button>
             
-            <Button className="hidden sm:flex bg-primary hover:bg-primary/90 text-primary-foreground font-medium px-6 rounded-xl transition-all hover:scale-105 shadow-lg shadow-primary/20">
-              <Sparkles className="w-4 h-4 mr-2" />
-              Pre-Order
+            <Button className="hidden sm:flex bg-foreground hover:bg-foreground/90 text-background font-normal px-6 rounded-lg transition-all hover:scale-105">
+              pre-order
             </Button>
             
             <Button 
